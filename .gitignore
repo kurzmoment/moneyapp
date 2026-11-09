@@ -1,0 +1,25 @@
+.build/
+.swiftpm/
+build/
+.DS_Store
+
+# Local data and release / QA output
+.local-docs/
+output/
+.taste-skill/
+.swiftpm/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite-*
+*.store
+*.store-*
+*.fakturabackup
+*.dmg
+*.zip
+*.p12
+*.mobileprovision
+
+# Private planning and development notes
+/PLAN.md
